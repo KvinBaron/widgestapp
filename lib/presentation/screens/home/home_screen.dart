@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:widgestapp/presentation/screens/buttons/buttons_screen.dart';
 
 import '../../../config/menu/menu_item.dart';
 
@@ -59,9 +60,15 @@ trailing: Icon(Icons.arrow_forward_ios_rounded,color: colors.primary,),
 title: Text(menuItem.tittle),
 subtitle: Text(menuItem.subTittle),
 onTap: (){
+//Navigator.of(context).push(
+//    MaterialPageRoute(
+//      builder: (context) => const ButtonsScreen(),
+//    ),
+//  );
+ Navigator.pushNamed(context, menuItem.link );
 
-  //TODO : Navegar a aotras pantallas
+
 },
     );
-  }
+  } 
 }

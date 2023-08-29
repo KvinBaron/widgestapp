@@ -33,7 +33,7 @@ MenuItem(
 MenuItem(
   tittle:"Tarjetas",
    subTittle: "Un contenedor estilizado",
-   link: "/card",
+   link: "/cards",
    icon: Icons.credit_card
    ),
 
