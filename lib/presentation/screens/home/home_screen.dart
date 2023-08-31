@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widgestapp/presentation/screens/buttons/buttons_screen.dart';
+import 'package:go_router/go_router.dart';
 
 import '../../../config/menu/menu_item.dart';
 
@@ -65,10 +65,10 @@ onTap: (){
 //      builder: (context) => const ButtonsScreen(),
 //    ),
 //  );
- Navigator.pushNamed(context, menuItem.link );
+// Navigator.pushNamed(context, menuItem.link );
 
-
+context.push( menuItem.link );
 },
     );
-  } 
+  }
 }
