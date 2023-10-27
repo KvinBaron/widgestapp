@@ -36,6 +36,12 @@ MenuItem(
    link: "/cards",
    icon: Icons.credit_card
    ),
+   MenuItem(
+  tittle:"ProgressIndicator",
+   subTittle: "Generales y Controladores",
+   link: "/progress",
+   icon: Icons.refresh_rounded
+   ),
 
 ];
  
